@@ -1,4 +1,4 @@
-🔬 Key Scientific Contributions
+Key Scientific Contributions
 Indicator Divergence: Proves that VCI, SMDI, SPEI, and TVDI identify different years as the "most severe" drought, demonstrating that drought indicators are not interchangeable.
 
 Detrending Analysis: Shows that a significant portion of the raw VCI–SMDI correlation (0.47) is driven by shared long-term greening/wetting trends, which drops to 0.36 after linear detrending. VCI–SPEI-6, however, remains stable.
@@ -7,7 +7,7 @@ Temporal Transferability: Exposes the "random-split illusion." By isolating all 
 
 Explainable AI (XAI): Utilizes SHAP and permutation importance to reveal that Land Surface Temperature (LST) is the most influential predictor of VCI, despite having a weak linear correlation, highlighting non-linear thermal stress on vegetation.
 
-⚙️ Methodology & Workflow
+Methodology & Workflow
 The repository is divided into the following reproducible steps:
 
 Data harmonization (QA screening, monthly aggregation, resampling to a 1 km grid).
@@ -24,7 +24,7 @@ loyo_forward_chaining The robust temporal validation scripts. Contains custom lo
 
 shap_interpretation: Generates SHAP summary and dependence plots.
 
-📊 Data Sources
+Data Sources
 MODIS (Terra): MOD13A2 (NDVI) & MOD11A2 (LST)
 
 GLDAS-Noah v2.1: 0–10 cm Soil Moisture
